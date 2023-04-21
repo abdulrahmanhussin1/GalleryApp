@@ -1,6 +1,6 @@
 @extends('pages.layouts.app')
 @section('title')
-    Albums - Gaalery App
+    Albums - Gallery App
 @endsection
 @section('content')
     <div class="container mt-5">
@@ -58,10 +58,7 @@
                             <input type="text" name="albumName" class="form-control" id="albumName"
                                 placeholder="Enter album name">
                         </div>
-                        <div class="mb-3">
-                            <label for="albumCover" class="form-label">Album Image</label>
-                            <input type="file" name="albumCover" class="form-control" id="albumCover">
-                        </div>
+
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                             <button type="submit" class="btn btn-success">Add Album</button>
